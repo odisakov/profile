@@ -67,10 +67,18 @@ a:hover {
 
 #sidebar {
   background-color: #384047;
-  position: fixed;
+  position: relative;
   left: 0px;
   top: 0px;
-  bottom: 0px;
-  width: 120px;
+  bottom: 10px;
+  width: max-width;
   text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  letter-spacing: 5px
+}
+
+#sidebar a {
+  font-size: 30px;
+  color: white;
 }
