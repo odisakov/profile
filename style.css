@@ -1,0 +1,66 @@
+body {
+  background-color: #d7e3f7;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#profilepic {
+  border-radius : 100%;
+  heigth: 50px;
+  width: 90px;
+}
+
+
+h1 {
+  font-size: 16px;
+  color: #162a49;
+}
+
+h2,
+h3,
+p,
+a
+ {
+  font-size: 14px;
+  color: #202123;
+}
+
+a:hover {
+  color: #0f1c30;
+}
+
+.card {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  background-color: #f9fbfc;
+  margin-top: 20px;
+  margin-bottom: 10px
+}
+
+#headerbox {
+  text-align: center;
+}
+
+.poster {
+  height: 70%;
+}
+
+#moviebox tr {
+  vertical-align: top;
+}
+
+#moviebox h3 {
+  margin-top: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  text-align: center;
+}
